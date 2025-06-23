@@ -1,0 +1,434 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\DELL\Desktop\gree_assignment-main-revised\.npmrc
+5 silly config load:file:C:\Users\DELL\.npmrc
+6 silly config load:file:C:\Users\DELL\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:C:\Users\DELL\Desktop\gree_assignment-main-revised\%AppData%\npm-cache\_logs\2025-06-21T04_30_04_322Z-
+10 verbose logfile C:\Users\DELL\Desktop\gree_assignment-main-revised\%AppData%\npm-cache\_logs\2025-06-21T04_30_04_322Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+15 silly reify mark retired [
+15 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\jiti',
+15 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\jiti',
+15 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\jiti.cmd',
+15 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\jiti.ps1'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\mkdirp',
+16 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\mkdirp',
+16 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\mkdirp.cmd',
+16 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\mkdirp.ps1'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\nanoid',
+17 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\nanoid',
+17 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\nanoid.cmd',
+17 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\nanoid.ps1'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\next',
+18 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\next',
+18 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\next.cmd',
+18 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\next.ps1'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\semver',
+19 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\semver',
+19 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\semver.cmd',
+19 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\semver.ps1'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\typescript',
+20 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\tsc',
+20 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\tsc.cmd',
+20 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\tsc.ps1',
+20 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\tsserver',
+20 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\tsserver.cmd',
+20 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\tsserver.ps1'
+20 silly reify ]
+21 silly reify moves {
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\jiti': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.jiti-7VD7k6mo',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\jiti': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.jiti-E6S4lPV5',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\jiti.cmd': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.jiti.cmd-aMnbQnRw',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\jiti.ps1': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.jiti.ps1-mKsy32Qs',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\mkdirp': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.mkdirp-NFdK3luT',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\mkdirp': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.mkdirp-lnEKJiVd',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\mkdirp.cmd': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.mkdirp.cmd-uynms3EM',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\mkdirp.ps1': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.mkdirp.ps1-QbfrTTGI',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\nanoid': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.nanoid-tQHgDjbZ',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\nanoid': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.nanoid-5iWwGLWl',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.nanoid.cmd-5Uq9pSpP',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.nanoid.ps1-j6HqYrqO',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\next': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.next-A47f3ue4',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\next': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.next-Jpudpu8C',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\next.cmd': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.next.cmd-qNpj5JbP',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\next.ps1': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.next.ps1-6WF2zM2l',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\semver': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.semver-XJ3Mmzzu',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\semver': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.semver-MelAQxRF',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.semver.cmd-UvZdpbph',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.semver.ps1-ZLWms6lI',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\typescript': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.typescript-QcihR3Lj',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\tsc': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.tsc-XKr20GZr',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.tsc.cmd-s8IvXMRc',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.tsc.ps1-et6B4JQg',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\tsserver': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.tsserver-aDmSKr3V',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\tsserver.cmd': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.tsserver.cmd-vwsfeTwG',
+21 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\tsserver.ps1': 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\.bin\\.tsserver.ps1-UKEqQ2jP'
+21 silly reify }
+22 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@tailwindcss\oxide-wasm32-wasi
+23 silly reify mark deleted [
+23 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+23 silly reify ]
+24 silly audit bulk request {
+24 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+24 silly audit   '@ampproject/remapping': [ '2.3.0' ],
+24 silly audit   '@emnapi/runtime': [ '1.4.3' ],
+24 silly audit   '@img/sharp-darwin-arm64': [ '0.34.2' ],
+24 silly audit   '@img/sharp-darwin-x64': [ '0.34.2' ],
+24 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.1.0' ],
+24 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.1.0' ],
+24 silly audit   '@img/sharp-libvips-linux-arm': [ '1.1.0' ],
+24 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.1.0' ],
+24 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.1.0' ],
+24 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.1.0' ],
+24 silly audit   '@img/sharp-libvips-linux-x64': [ '1.1.0' ],
+24 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.1.0' ],
+24 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.1.0' ],
+24 silly audit   '@img/sharp-linux-arm': [ '0.34.2' ],
+24 silly audit   '@img/sharp-linux-arm64': [ '0.34.2' ],
+24 silly audit   '@img/sharp-linux-s390x': [ '0.34.2' ],
+24 silly audit   '@img/sharp-linux-x64': [ '0.34.2' ],
+24 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.2' ],
+24 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.2' ],
+24 silly audit   '@img/sharp-wasm32': [ '0.34.2' ],
+24 silly audit   '@img/sharp-win32-arm64': [ '0.34.2' ],
+24 silly audit   '@img/sharp-win32-ia32': [ '0.34.2' ],
+24 silly audit   '@img/sharp-win32-x64': [ '0.34.2' ],
+24 silly audit   '@isaacs/fs-minipass': [ '4.0.1' ],
+24 silly audit   '@jridgewell/gen-mapping': [ '0.3.8' ],
+24 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+24 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+24 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+24 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+24 silly audit   '@next/env': [ '15.3.4' ],
+24 silly audit   '@next/swc-darwin-arm64': [ '15.3.4' ],
+24 silly audit   '@next/swc-darwin-x64': [ '15.3.4' ],
+24 silly audit   '@next/swc-linux-arm64-gnu': [ '15.3.4' ],
+24 silly audit   '@next/swc-linux-arm64-musl': [ '15.3.4' ],
+24 silly audit   '@next/swc-linux-x64-gnu': [ '15.3.4' ],
+24 silly audit   '@next/swc-linux-x64-musl': [ '15.3.4' ],
+24 silly audit   '@next/swc-win32-arm64-msvc': [ '15.3.4' ],
+24 silly audit   '@next/swc-win32-x64-msvc': [ '15.3.4' ],
+24 silly audit   '@swc/counter': [ '0.1.3' ],
+24 silly audit   '@swc/helpers': [ '0.5.15' ],
+24 silly audit   '@tailwindcss/node': [ '4.1.10' ],
+24 silly audit   '@tailwindcss/oxide': [ '4.1.10' ],
+24 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.10' ],
+24 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.10' ],
+24 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.10' ],
+24 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.10' ],
+24 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.10' ],
+24 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.10' ],
+24 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.10' ],
+24 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.10' ],
+24 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.10' ],
+24 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.10' ],
+24 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.10' ],
+24 silly audit   '@tailwindcss/postcss': [ '4.1.10' ],
+24 silly audit   '@types/node': [ '20.19.1' ],
+24 silly audit   '@types/react': [ '19.1.8' ],
+24 silly audit   '@types/react-dom': [ '19.1.6' ],
+24 silly audit   busboy: [ '1.6.0' ],
+24 silly audit   'caniuse-lite': [ '1.0.30001724' ],
+24 silly audit   chownr: [ '3.0.0' ],
+24 silly audit   'client-only': [ '0.0.1' ],
+24 silly audit   color: [ '4.2.3' ],
+24 silly audit   'color-convert': [ '2.0.1' ],
+24 silly audit   'color-name': [ '1.1.4' ],
+24 silly audit   'color-string': [ '1.9.1' ],
+24 silly audit   csstype: [ '3.1.3' ],
+24 silly audit   'detect-libc': [ '2.0.4' ],
+24 silly audit   'enhanced-resolve': [ '5.18.1' ],
+24 silly audit   'graceful-fs': [ '4.2.11' ],
+24 silly audit   'is-arrayish': [ '0.3.2' ],
+24 silly audit   jiti: [ '2.4.2' ],
+24 silly audit   lightningcss: [ '1.30.1' ],
+24 silly audit   'lightningcss-darwin-arm64': [ '1.30.1' ],
+24 silly audit   'lightningcss-darwin-x64': [ '1.30.1' ],
+24 silly audit   'lightningcss-freebsd-x64': [ '1.30.1' ],
+24 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.1' ],
+24 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.1' ],
+24 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.1' ],
+24 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.1' ],
+24 silly audit   'lightningcss-linux-x64-musl': [ '1.30.1' ],
+24 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.1' ],
+24 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.1' ],
+24 silly audit   'magic-string': [ '0.30.17' ],
+24 silly audit   minipass: [ '7.1.2' ],
+24 silly audit   minizlib: [ '3.0.2' ],
+24 silly audit   mkdirp: [ '3.0.1' ],
+24 silly audit   nanoid: [ '3.3.11' ],
+24 silly audit   next: [ '15.3.4' ],
+24 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+24 silly audit   picocolors: [ '1.1.1' ],
+24 silly audit   react: [ '19.1.0' ],
+24 silly audit   'react-dom': [ '19.1.0' ],
+24 silly audit   scheduler: [ '0.26.0' ],
+24 silly audit   semver: [ '7.7.2' ],
+24 silly audit   sharp: [ '0.34.2' ],
+24 silly audit   'simple-swizzle': [ '0.2.2' ],
+24 silly audit   'source-map-js': [ '1.2.1' ],
+24 silly audit   streamsearch: [ '1.1.0' ],
+24 silly audit   'styled-jsx': [ '5.1.6' ],
+24 silly audit   tailwindcss: [ '4.1.10' ],
+24 silly audit   tapable: [ '2.2.2' ],
+24 silly audit   tar: [ '7.4.3' ],
+24 silly audit   tslib: [ '2.8.1' ],
+24 silly audit   typescript: [ '5.8.3' ],
+24 silly audit   'undici-types': [ '6.21.0' ],
+24 silly audit   yallist: [ '5.0.0' ],
+24 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.10' ]
+24 silly audit }
+25 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\lightningcss-win32-arm64-msvc
+26 silly reify mark deleted [
+26 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\lightningcss-win32-arm64-msvc'
+26 silly reify ]
+27 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\lightningcss-linux-x64-musl
+28 silly reify mark deleted [
+28 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\lightningcss-linux-x64-musl'
+28 silly reify ]
+29 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\lightningcss-linux-x64-gnu
+30 silly reify mark deleted [
+30 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\lightningcss-linux-x64-gnu'
+30 silly reify ]
+31 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\lightningcss-linux-arm64-musl
+32 silly reify mark deleted [
+32 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\lightningcss-linux-arm64-musl'
+32 silly reify ]
+33 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\lightningcss-linux-arm64-gnu
+34 silly reify mark deleted [
+34 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\lightningcss-linux-arm64-gnu'
+34 silly reify ]
+35 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\lightningcss-linux-arm-gnueabihf
+36 silly reify mark deleted [
+36 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\lightningcss-linux-arm-gnueabihf'
+36 silly reify ]
+37 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\lightningcss-freebsd-x64
+38 silly reify mark deleted [
+38 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\lightningcss-freebsd-x64'
+38 silly reify ]
+39 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\lightningcss-darwin-x64
+40 silly reify mark deleted [
+40 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\lightningcss-darwin-x64'
+40 silly reify ]
+41 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+42 silly reify mark deleted [
+42 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+42 silly reify ]
+43 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@tailwindcss\oxide-linux-x64-musl
+44 silly reify mark deleted [
+44 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+44 silly reify ]
+45 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@tailwindcss\oxide-linux-x64-gnu
+46 silly reify mark deleted [
+46 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+46 silly reify ]
+47 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@tailwindcss\oxide-linux-arm64-musl
+48 silly reify mark deleted [
+48 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+48 silly reify ]
+49 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+50 silly reify mark deleted [
+50 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+50 silly reify ]
+51 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+52 silly reify mark deleted [
+52 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+52 silly reify ]
+53 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@tailwindcss\oxide-freebsd-x64
+54 silly reify mark deleted [
+54 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+54 silly reify ]
+55 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@tailwindcss\oxide-darwin-x64
+56 silly reify mark deleted [
+56 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+56 silly reify ]
+57 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@tailwindcss\oxide-android-arm64
+58 silly reify mark deleted [
+58 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@tailwindcss\\oxide-android-arm64'
+58 silly reify ]
+59 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@next\swc-win32-arm64-msvc
+60 silly reify mark deleted [
+60 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@next\\swc-win32-arm64-msvc'
+60 silly reify ]
+61 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@next\swc-linux-x64-musl
+62 silly reify mark deleted [
+62 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@next\\swc-linux-x64-musl'
+62 silly reify ]
+63 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@next\swc-linux-x64-gnu
+64 silly reify mark deleted [
+64 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@next\\swc-linux-x64-gnu'
+64 silly reify ]
+65 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@next\swc-linux-arm64-musl
+66 silly reify mark deleted [
+66 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@next\\swc-linux-arm64-musl'
+66 silly reify ]
+67 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@next\swc-linux-arm64-gnu
+68 silly reify mark deleted [
+68 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@next\\swc-linux-arm64-gnu'
+68 silly reify ]
+69 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@next\swc-darwin-x64
+70 silly reify mark deleted [
+70 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@next\\swc-darwin-x64'
+70 silly reify ]
+71 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-win32-ia32
+72 silly reify mark deleted [
+72 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-win32-ia32'
+72 silly reify ]
+73 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-win32-arm64
+74 silly reify mark deleted [
+74 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-win32-arm64'
+74 silly reify ]
+75 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-wasm32
+76 silly reify mark deleted [
+76 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-wasm32'
+76 silly reify ]
+77 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-linuxmusl-x64
+78 silly reify mark deleted [
+78 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-linuxmusl-x64'
+78 silly reify ]
+79 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-linuxmusl-arm64
+80 silly reify mark deleted [
+80 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-linuxmusl-arm64'
+80 silly reify ]
+81 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-linux-x64
+82 silly reify mark deleted [
+82 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-linux-x64'
+82 silly reify ]
+83 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-linux-s390x
+84 silly reify mark deleted [
+84 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-linux-s390x'
+84 silly reify ]
+85 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-linux-arm64
+86 silly reify mark deleted [
+86 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-linux-arm64'
+86 silly reify ]
+87 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-linux-arm
+88 silly reify mark deleted [
+88 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-linux-arm'
+88 silly reify ]
+89 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-libvips-linuxmusl-x64
+90 silly reify mark deleted [
+90 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+90 silly reify ]
+91 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-libvips-linuxmusl-arm64
+92 silly reify mark deleted [
+92 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+92 silly reify ]
+93 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-libvips-linux-x64
+94 silly reify mark deleted [
+94 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-libvips-linux-x64'
+94 silly reify ]
+95 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-libvips-linux-s390x
+96 silly reify mark deleted [
+96 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-libvips-linux-s390x'
+96 silly reify ]
+97 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-libvips-linux-ppc64
+98 silly reify mark deleted [
+98 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+98 silly reify ]
+99 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-libvips-linux-arm64
+100 silly reify mark deleted [
+100 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-libvips-linux-arm64'
+100 silly reify ]
+101 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-libvips-linux-arm
+102 silly reify mark deleted [
+102 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-libvips-linux-arm'
+102 silly reify ]
+103 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-libvips-darwin-x64
+104 silly reify mark deleted [
+104 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-libvips-darwin-x64'
+104 silly reify ]
+105 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@img\sharp-darwin-x64
+106 silly reify mark deleted [
+106 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@img\\sharp-darwin-x64'
+106 silly reify ]
+107 http cache lightningcss-win32-x64-msvc@https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.30.1.tgz 1ms (cache hit)
+108 http cache @tailwindcss/oxide-win32-x64-msvc@https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.1.10.tgz 0ms (cache hit)
+109 http cache @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.3.4.tgz 0ms (cache hit)
+110 http cache @img/sharp-win32-x64@https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.2.tgz 0ms (cache hit)
+111 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.2.tgz 0ms (cache hit)
+112 http cache next@https://registry.npmjs.org/next/-/next-15.3.4.tgz 0ms (cache hit)
+113 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.8.3.tgz 0ms (cache hit)
+114 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 0ms (cache hit)
+115 http cache mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-3.0.1.tgz 0ms (cache hit)
+116 silly tarball no local data for lightningcss-win32-x64-msvc@https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.30.1.tgz. Extracting by manifest.
+117 http cache jiti@https://registry.npmjs.org/jiti/-/jiti-2.4.2.tgz 1ms (cache hit)
+118 silly tarball no local data for @tailwindcss/oxide-win32-x64-msvc@https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.1.10.tgz. Extracting by manifest.
+119 silly tarball no local data for @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.3.4.tgz. Extracting by manifest.
+120 silly tarball no local data for @img/sharp-win32-x64@https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.2.tgz. Extracting by manifest.
+121 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.7.2.tgz. Extracting by manifest.
+122 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-15.3.4.tgz. Extracting by manifest.
+123 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.8.3.tgz. Extracting by manifest.
+124 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz. Extracting by manifest.
+125 silly tarball no local data for mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-3.0.1.tgz. Extracting by manifest.
+126 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-2.4.2.tgz. Extracting by manifest.
+127 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 5868ms (cache miss)
+128 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 6107ms
+129 silly audit report {}
+130 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.7.2.tgz 6118ms (cache miss)
+131 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-3.0.1.tgz 6191ms (cache miss)
+132 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-2.4.2.tgz 12738ms (cache miss)
+133 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.1.10.tgz 21773ms (cache miss)
+134 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.30.1.tgz 61607ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.8.3.tgz 98314ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.2.tgz 179380ms (cache miss)
+137 verbose reify failed optional dependency C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\@next\swc-win32-x64-msvc
+138 silly reify mark deleted [
+138 silly reify   'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\@next\\swc-win32-x64-msvc'
+138 silly reify ]
+139 warn cleanup Failed to remove some directories [
+139 warn cleanup   [
+139 warn cleanup     'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\mkdirp',
+139 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\mkdirp\dist\cjs'] {
+139 warn cleanup       errno: -4048,
+139 warn cleanup       code: 'EPERM',
+139 warn cleanup       syscall: 'rmdir',
+139 warn cleanup       path: 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\mkdirp\\dist\\cjs'
+139 warn cleanup     }
+139 warn cleanup   ],
+139 warn cleanup   [
+139 warn cleanup     'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\next',
+139 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\DELL\Desktop\gree_assignment-main-revised\node_modules\next\dist\esm\build\webpack\config'] {
+139 warn cleanup       errno: -4048,
+139 warn cleanup       code: 'EPERM',
+139 warn cleanup       syscall: 'rmdir',
+139 warn cleanup       path: 'C:\\Users\\DELL\\Desktop\\gree_assignment-main-revised\\node_modules\\next\\dist\\esm\\build\\webpack\\config'
+139 warn cleanup     }
+139 warn cleanup   ]
+139 warn cleanup ]
+140 verbose stack Error: Idle timeout reached for host `registry.npmjs.org:443`
+140 verbose stack     at TLSSocket.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\agent\lib\agents.js:157:24)
+140 verbose stack     at Object.onceWrapper (node:events:632:28)
+140 verbose stack     at TLSSocket.emit (node:events:530:35)
+140 verbose stack     at Socket._onTimeout (node:net:609:8)
+140 verbose stack     at listOnTimeout (node:internal/timers:588:17)
+140 verbose stack     at process.processTimers (node:internal/timers:523:7)
+141 error code EIDLETIMEOUT
+142 error Idle timeout reached for host `registry.npmjs.org:443`
+143 silly unfinished npm timer reify 1750480206517
+144 silly unfinished npm timer reify:unpack 1750480206837
+145 silly unfinished npm timer reifyNode:node_modules/next 1750480206838
+146 verbose cwd C:\Users\DELL\Desktop\gree_assignment-main-revised
+147 verbose os Windows_NT 10.0.26100
+148 verbose node v22.15.0
+149 verbose npm  v10.9.2
+150 verbose exit 1
+151 verbose code 1
+152 error A complete log of this run can be found in: C:\Users\DELL\Desktop\gree_assignment-main-revised\%AppData%\npm-cache\_logs\2025-06-21T04_30_04_322Z-debug-0.log
