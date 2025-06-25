@@ -20,6 +20,7 @@ export default function ProductsPage() {
   const [localImage, setLocalImage] = useState<File | null>(null);
   const [localImageUrl, setLocalImageUrl] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const [dragOver, setDragOver] = useState(false);
 
   const fetchProducts = async () => {
     setLoading(true);
@@ -60,8 +61,13 @@ export default function ProductsPage() {
 
   const handleDrop = (e: React.DragEvent<HTMLDivElement>) => {
     e.preventDefault();
+    setDragOver(false);
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
       const file = e.dataTransfer.files[0];
+      if (!file.type.startsWith('image/')) {
+        alert('Please upload an image file.');
+        return;
+      }
       setLocalImage(file);
       setLocalImageUrl(URL.createObjectURL(file));
     }
@@ -77,6 +83,12 @@ export default function ProductsPage() {
 
   const handleDragOver = (e: React.DragEvent<HTMLDivElement>) => {
     e.preventDefault();
+    setDragOver(true);
+  };
+
+  const handleDragLeave = (e: React.DragEvent<HTMLDivElement>) => {
+    e.preventDefault();
+    setDragOver(false);
   };
 
   const handleRemoveImage = () => {
@@ -123,7 +135,7 @@ export default function ProductsPage() {
                 placeholder="e.g., Solitaire Ring"
                 value={name}
                 onInput={(e) => setName(e.currentTarget.value)}
-                className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 transition bg-[#faf9f6]"
+                className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 transition bg-[#faf9f6] text-gray-900"
                 required
               />
             </div>
@@ -140,7 +152,7 @@ export default function ProductsPage() {
                 placeholder="e.g., 29999"
                 value={price}
                 onInput={(e) => setPrice(e.currentTarget.value)}
-                className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 transition bg-[#faf9f6]"
+                className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 transition bg-[#faf9f6] text-gray-900"
                 required
               />
             </div>
@@ -157,13 +169,21 @@ export default function ProductsPage() {
                 placeholder="Paste image URL here..."
                 value={imageUrl}
                 onInput={(e) => setImageUrl(e.currentTarget.value)}
-                className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 transition bg-[#faf9f6] mb-2"
+                className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 transition bg-[#faf9f6] mb-2 text-gray-900"
                 disabled={!!localImage}
               />
+              <input
+                type="file"
+                accept="image/*"
+                ref={fileInputRef}
+                style={{ display: 'none' }}
+                onChange={handleFileChange}
+              />
               <div
-                className={`w-full flex flex-col items-center justify-center border-2 border-dashed rounded-xl p-6 cursor-pointer transition bg-[#f8fafc] ${localImage ? 'border-yellow-400' : 'border-gray-200'} hover:border-yellow-400 hover:bg-yellow-50`}
+                className={`w-full flex flex-col items-center justify-center border-2 border-dashed rounded-xl p-6 cursor-pointer transition bg-[#f8fafc] ${localImage ? 'border-yellow-400' : dragOver ? 'border-yellow-500 bg-yellow-50' : 'border-gray-200'} hover:border-yellow-400 hover:bg-yellow-50`}
                 onDrop={handleDrop}
                 onDragOver={handleDragOver}
+                onDragLeave={handleDragLeave}
                 onClick={() => fileInputRef.current?.click()}
               >
                 <FaUpload className="text-yellow-400 mb-2" size={28} />
